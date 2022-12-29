@@ -16,7 +16,7 @@ for i in range(len(Qu)):
         print("'\033[92m'correct answer")
         print("you won 1000")
         am = am+1000
-        print("your am is ",am)
+        print("your winning amount is",am)
         continue
     elif user==5:
         for f in life_line:
@@ -58,6 +58,7 @@ for i in range(len(Qu)):
                 print("you won 1000")
                 am =am+1000
                 print(am)
+                print("your winning amount is",am)
             else:
                 print("'\033[91m'wrong")
         else:
